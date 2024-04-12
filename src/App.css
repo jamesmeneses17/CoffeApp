@@ -1,0 +1,293 @@
+#contenedor_principal {
+
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  width: 100%;
+  will-change: filter;
+  transition: filter 300ms;
+  position: relative;
+  z-index: 1;
+}
+
+.contenedor_articulo {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;}
+
+.articulos {
+  margin-bottom: 10px;
+  background-color:#1B1D1F;
+  height: auto;
+  width: auto;
+}
+
+.nombre_articulo {
+  font-size: 14px;
+  font-family: 'Arial';
+  color: #ffffff;
+}
+
+.descripcion_articulo {
+  font-size: 12px;
+  color: #666;
+  margin-bottom: 5px;
+}
+
+.popular_articulo {
+  position: absolute;
+  top: 5px; /* Ajusta según sea necesario */
+  left: 10px; /* Ajusta según sea necesario */
+  /* Resto de estilos... */
+  font-size: 10px;
+  font-family: 'Arial';
+  color: #000000;
+  background-color: #F6C768;
+  border-radius: 10px;
+  cursor: pointer;
+  padding: 7px 7px;
+  z-index: 1;
+}
+
+
+.available {
+  position: absolute; /* Utiliza position absolute para posicionar de forma absoluta */
+  top: 170px; /* Ajusta según la posición deseada en el eje Y */
+  left: 180px; /* Ajusta según la posición deseada en el eje X */
+  /* Puedes usar otras propiedades como right o bottom para posicionar en otras ubicaciones */
+  font-size: 12px; /* Ajusta el tamaño de la fuente según sea necesario */
+  color: #fa2b07; /* Color del texto */
+}
+
+
+
+.estrella_llena{
+ 
+  width: auto;
+  height: auto;
+  margin-right: 2px;
+}
+
+.estrella_vacia{
+
+  width: auto;
+  height: auto;
+  margin-right: 2px;
+}
+
+.flexible1{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.flexible2{
+  display: flex;
+  justify-content:flex-start;
+  align-items: center;
+}
+
+.flexible2{
+  display: flex;
+  justify-content:flex-start;
+  align-items: center;
+}
+.imagen_encabezado{
+    background-image: url('../src/assets/vector.svg');
+    background-size: 210px 210px; /* Ajusta según sea necesario */
+  background-repeat: no-repeat;
+  background-position-x: 530px;
+  background-position-y: -30px;
+  width: 0px;
+  height: 0px;
+}
+
+.contenedor_texto{
+  display: flex;
+  justify-content: space-between; 
+  flex-direction: column;
+  align-items: center;
+  width: auto;
+  height: auto;
+}
+
+.precio_articulo {
+  position: absolute;
+  top: 150px; /* Ajusta según sea necesario */
+  left: 170px;
+
+  font-size: 10px;
+  font-family: 'Arial';
+  color: #000000;
+  background-color: #BEE3CC;
+  border-radius: 5px;
+  cursor: pointer;
+ padding: 4px 8px;
+}
+
+.imagen_articulo {
+  width: 210px;
+  height: 140px;
+  border-radius: 15px;
+}
+
+.calificacion{
+  font-size: 15px;
+  color: #ffffff;
+  font-family: 'Arial';
+  margin-right: 2px;
+}
+
+.votantes{
+  font-size: 8px;
+  color: #6F757C;
+  font-family: 'Arial';
+}
+
+.caffe_imagen{
+  width: 100%;
+}
+
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+.caja_primera {
+  height: auto; 
+  display: flex;
+  width: auto;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #111315;
+}
+
+.caja_segunda {
+  border-radius: 15px;
+  background-color: #1B1D1F;
+  width: auto; 
+  height: auto; 
+  margin-top: -170px; 
+  margin-left: 35px;
+  margin-right: 35px;
+  margin-bottom: 35px;
+  padding: 10px;
+  z-index: 1;
+}
+
+.caja_tercera {
+  width: 900px;
+  height: 600px;
+}
+
+.caja_cuarta {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.caja_quinta {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Define el tamaño mínimo y máximo de las columnas */
+  gap: 20px; /* Espacio entre elementos */
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  max-width: 900px; /* Ajusta según sea necesario */
+}
+
+
+
+
+
+.boton_primero {
+  display: flex;
+  justify-content: center;
+}
+
+.boton_segundo {
+  border: 1px solid #f9f9fa; /* Ajusta el color según sea necesario */
+  padding: 10px 20px;
+  background-color: #6e7c80;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 12px;
+  color: #ffffff;
+  
+  margin-right: 5px;
+}
+
+.boton_tercero {
+  border: 1px solid #fafafd; /* Ajusta el color según sea necesario */
+  padding: 10px 20px;
+  background-color: #1B1D1F;
+
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 12px;
+  color: #ffffff;
+ 
+  margin-right: 5px;
+}
+
+.titulo_principal{
+  margin-top: 50px; 
+  font-size: 33px;
+  color: #ffffff;
+  font-family: 'Arial';
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+.texto_descriptivo{
+  margin-top: -10px; 
+  width: 60%; /* Ajusta según sea necesario */
+  margin: 1 auto;
+  font-size: 17px;
+  color: #6F757C;
+  font-family: 'Arial';
+  text-align: center; 
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.votantes {
+  font-size: 12px; /* Ajusta el tamaño de la fuente según sea necesario */
+  color: #6F757C; /* Color del texto */
+  font-family: 'Arial'; /* Asegúrate de mantener la fuente deseada */
+}
+
+
